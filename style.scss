@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url(https://www.virtosuart.com/images/photo-int/Buddha4.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 700px;
+}
+
+@media screen and (max-width: 670px) {
+  header {
+    min-height: 500px;
+  }
+}
+
+.shipping {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f6fa;
+  height: 40px;
+}
+
+.nav-wrapper {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.jumbotron-title {
+  text-align: center;
+  padding-top: 6vw;
+  color: #f8a5c2;
+}
+
+.jumbotron-title h1 {
+  font-size: 6rem;
+  font-weight: bolder;
+}
+
+.jumbotron-title h2 {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+.jumbotron-button {
+  text-align: center;
+  vertical-align: center;
+}
+
+.jumbotron-button button {
+  margin: 68px;
+}
+
+.section {
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
+
+.tabs .indicator {
+  background-color: #607d8b;
+}
+
+#services {
+  padding-top: 2vw;
+}
+#locations {
+  padding-top: 2vw;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+}
